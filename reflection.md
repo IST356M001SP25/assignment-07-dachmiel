@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Daniel Chmielewski
+Sudent Email:  dachmiel@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+In this assignment, I learned how to use Playwright to scrape web pages and extract structured data, as well as how to clean and process that data for further use. Implementing tully_scraper.py was particularly challenging since I needed to figure out how to navigate the structure of the Tully's website and identify the selectors for menu sections and items. Additionally, turning the scraped text into usable MenuItem objects helped me practice my data cleaning and transformation skills. Moreover, I had some issues with testing and running my code due to the following import statement in menuitemextractor.py: "from code.menuitem import MenuItem". It would not run the code unless I changed it to "from menuitem import MenuItem" and would not run the tests for that file unless I changed it back.
